@@ -10,6 +10,6 @@ namespace BookLendingApp.Models
         public List<string> Genres { get; set; } = new List<string>();
         public int TotalCopies { get; set; }
         public int AvailableCopies { get; set; }
-        public int TimesBorrowed { get; set; } = 0;
+        public int TimesBorrowed { get; set; } = 1;
     }
 }
